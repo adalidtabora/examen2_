@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="15dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:elevation="5dp">
+
+    <ImageView
+        android:id="@+id/ImagePerson"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="1dp" />
+
+    <!--ImageView
+        android:id="@+id/ImagePerson"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+
+        android:layout_margin="1dp"
+        android:contentDescription="@string/PrinterImage" /-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/PersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PrinterName"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:transitionName="titleTransition" />
+
+        <TextView
+            android:id="@+id/PersonDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripcion"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:transitionName="descTransition" />
+    </LinearLayout>
+
+</LinearLayout>

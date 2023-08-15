@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TLenguajes2023</string>
+    <string name="app_apel">Ingrese su apellido</string>
+    <string name="app_btnl">Mostrar</string>
+    <string name="app_ap">Proporcione su apellido</string>
+    <string name="app_dir">proporcione una direccion</string>
+    <string name="PrinterName">Nombres</string>
+    <string name="PrinterManufacturer">Apellidos</string>
+    <string name="PrinterImage">Imagen</string>
+    <string name="app_descrp">Proporcione una descripción.</string>
+
+    <string-array name="gender_options">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+
+</resources>
